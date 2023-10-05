@@ -25,7 +25,7 @@ var buttonElement2 = document.getElementById("contactButton2");
 
 buttonElement2.addEventListener("click", () =>{
     scrollToElement('.header');
-})
+});
 
 buttonElement.addEventListener("click", () => {
     scrollToElement('.header', 1);
