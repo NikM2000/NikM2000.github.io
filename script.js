@@ -23,14 +23,6 @@ var gitHubButton = document.getElementById("gitHubButton");
 var contactMeButton = document.getElementById("contactMeButton");
 var buttonElement2 = document.getElementById("contactButton2");
 
-buttonElement2.addEventListener("click", () =>{
-    scrollToElement('.header');
-});
-
-buttonElement.addEventListener("click", () => {
-    scrollToElement('.header', 1);
-});
-
 linkedInButton.addEventListener("click", () =>{
     openInNewTab("https://www.linkedin.com/in/milanovic-n/");
 });
@@ -40,3 +32,16 @@ gitHubButton.addEventListener("click", () =>{
 });
 
 contactMeButton.addEventListener("click", contactMe);
+
+if (buttonElement){
+    buttonElement.addEventListener("click", () => {
+        scrollToElement('.header', 1);
+    });
+}
+
+
+if (buttonElement2){
+    buttonElement2.addEventListener("click", () =>{
+        scrollToElement('.header');
+    });
+}
