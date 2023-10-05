@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio | Nikola Milanovic </title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="Images/logo.png">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="work_experience.html">Work Experience</a></li>
+            <li class="link"><a href="#">University Studies</a></li>
+            <li class="link"><a href="#">About Me</a></li>
+        </ul>
+        <button id="contactButton2" class="btn">Contact Information</button>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>Welcome.</h4>
+            <H1>Hi, I'm <span>Nikola</span>, Software Engineer</H1>
+            <p>
+                Welcome to my corner of the web! I'm a recent Computer Science graduate with a passion for creating intelligent and innovative software solutions.
+                During my academic journey and my time working as a Software Engineer at AMD, I've had the opportunity to delve deep into the world of 
+                technology and machine learning. I'm excited to share my journey with you.
+            </p>
+            <button class="btn">Get Started</button>
+        </div>
+        <div class="img">
+            <img src="Images/logo.png">
+        </div>
+    </header>
+
+    <section class="container">
+        <h2 class="header">PROJECTS</h2>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-lungs-fill"></i></span>
+                <h4>AI for Chest X-Ray</h4>
+                <p>
+                    Deep learning project using computer vision on Stanford's CheXpert x-ray dataset to train a model capable of
+                    detecting the absence or presence of 13 different pathologies.
+                </p>
+                <a href="https://github.com/NikM2000/AI-For-Chest-X-Ray" target="_blank">GitHub Link <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-radar-line"></i></span>
+                <h4>Safety Net</h4>
+                <p>
+                    Java application mapping all of NYC's crime data to different bureaus, which can be queried for specific inqueries such as frequent crimes,
+                    comparing statistics and more!
+                </p>
+                <a href="https://github.com/NikM2000/Safety-Net" target="_blank">GitHub Link <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-money-dollar-circle-line"></i></span>
+                <h4>Roulette Web App</h4>
+                <p>
+                    A Django/ELM web application that allows users to create accounts, login, and keep track of points earned from betting on a fully functional
+                    animated roulette wheel.
+                </p>
+                <a href="https://github.com/NikM2000/Roulette-Web-App" target="_blank">GitHub Link <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-scissors-line"></i></span>
+                <h4>Rock, Paper, Scissors</h4>
+                <p>
+                    An ELM web application that allows users to play the classic Rock, Paper, Scissors game online against a computer AI with animated graphics and strategies.
+                </p>
+                <a href="https://github.com/NikM2000/Rock-Paper-Scissors" target="_blank">GitHub Link <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="header">CONNECT WITH ME</h2>
+        <p class="sub-header">
+            Explore my professional profiles and get in touch for networking, collaboration, or inqueries through the following:
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>LinkedIn</h4>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Professional networking and portfolio.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Stay updated on my career and professional interests.
+                    </p>
+                </div>
+                <button class="btn" id="linkedInButton">Connect With Me</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>GitHub</h4>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Explore my coding projects and contributions.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Collaborate on open-source projects and view my code.
+                    </p>
+                </div>
+                <button class="btn" id="gitHubButton">Explore My Projects</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Email</h4>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Contact me for inqueries and collaboration opportunities.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Reach out for any questions or discussions.
+                    </p>
+                </div>
+                <button class="btn" id="contactMeButton">Contact Me</button>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
